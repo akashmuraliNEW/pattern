@@ -462,19 +462,31 @@ import string
 # 3 3 
 # 5 5 5 
 # 7 7 7 7 
-# 9 9 9 9 9
-row = 5
-i=0
-val=1
+# # 9 9 9 9 9
+# row = 5
+# i=0
+# val=1
 
-for i in range(1,row+1):
-    for j in range(i):
-        print(val,end='')
+# for i in range(1,row+1):
+#     for j in range(i):
+#         print(val,end='')
+#     print()
+#     val+=2
+
+# 1 
+# 2 1 
+# 3 2 1 
+# 4 3 2 1 
+# 5 4 3 2 1
+row =5
+col=1
+num=0
+for i in range(row):
+    num=col
+    for j in range(col):
+        print(num,end='')
+        num-=1
     print()
-    val+=2
-
-
-# making change
-# another change 
+    col+=1
 
    
