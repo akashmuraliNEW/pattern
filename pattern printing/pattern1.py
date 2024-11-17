@@ -1,4 +1,4 @@
-import string 
+# import string 
 # row =int(input('enter : '))
 # for i in range(row):
 #     for j in range (i):
@@ -478,15 +478,28 @@ import string
 # 3 2 1 
 # 4 3 2 1 
 # 5 4 3 2 1
-row =5
-col=1
-num=0
-for i in range(row):
-    num=col
-    for j in range(col):
-        print(num,end='')
-        num-=1
-    print()
-    col+=1
+# row =5
+# col=1
+# num=0
+# for i in range(row):
+#     num=col
+#     for j in range(col):
+#         print(num,end='')
+#         num-=1
+#     print()
+#     col+=1
 
-   
+# 1 
+# 1 2 1 
+# 1 2 3 2 1 
+# 1 2 3 4 3 2 1 
+# 1 2 3 4 5 4 3 2 1  
+# row = 5
+# col=1
+# for i in range(row):
+#     for j in range(1,col):
+#         print(j,end=' ')
+#     for k in range(col,0,-1):
+#         print(k,end=' ')
+#     print()
+#     col+=1
