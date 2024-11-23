@@ -503,3 +503,17 @@
 #         print(k,end=' ')
 #     print()
 #     col+=1
+
+# 0 
+# 2 4 
+# 4 8 8 
+# 6 12 12 12
+rows = 4
+for i in range(rows):
+    first = 2 * i  
+    for j in range(i + 1):
+        if j == 0:  
+            print(first, end=' ')
+        else:  
+            print(first * 2, end=' ')
+    print()
