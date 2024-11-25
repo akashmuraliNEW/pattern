@@ -508,12 +508,33 @@
 # 2 4 
 # 4 8 8 
 # 6 12 12 12
-rows = 4
-for i in range(rows):
-    first = 2 * i  
-    for j in range(i + 1):
-        if j == 0:  
-            print(first, end=' ')
-        else:  
-            print(first * 2, end=' ')
-    print()
+# rows = 4
+# for i in range(rows):
+#     first = 2 * i  
+#     for j in range(i + 1):
+#         if j == 0:  
+#             print(first, end=' ')
+#         else:  
+#             print(first * 2, end=' ')
+#     print()
+
+    #         A  
+    #        B C  
+    #       D E F  
+    #      G H I J  
+    #     K L M N O  
+    #    P Q R S T U  
+    #   V W X Y Z [ \  
+
+size = 7
+asciiNumber = 65
+m = (2 * size) - 2
+for i in range(0, size):
+    for j in range(0, m):
+        print(end=" ")
+    m = m - 1
+    for j in range(0, i + 1):
+        character = chr(asciiNumber)
+        print(character, end=' ')
+        asciiNumber += 1
+    print(" ")
