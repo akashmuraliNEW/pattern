@@ -1,10 +1,22 @@
-def split_and_join(line):
-    line = line.split(' ')
-
-    line = '-'.join(line)
-    return line
-    # write your code here
-if __name__ == '__main__':
-    line = input()
-    result = split_and_join(line)
-    print(result)
+N = int(input())
+arr = []
+for i in range(N):
+    code = input().split()
+    command = code[0]
+    if command == 'insert':
+        arr.insert(int(code[1]),int(code[2]))
+        
+    elif command == 'print': 
+        print(arr)
+    elif command == 'remove':
+        arr.remove(int(code[1])) 
+    elif command == 'append':
+        arr.append(int(code[1])) 
+    elif command == 'sort': 
+        arr.sort() 
+    elif command == 'pop': 
+        arr.pop() 
+    elif command == 'reverse': 
+        arr.reverse() 
+    
+    
