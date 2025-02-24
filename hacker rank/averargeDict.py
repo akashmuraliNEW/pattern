@@ -1,3 +1,4 @@
+# ?average
 n = int(input())
 student_marks = {}
 for _ in range(n):
@@ -13,4 +14,3 @@ for i in list1:
     avg+=i
 avg = avg/num   
 print(f'{avg:.2f}')
-    
