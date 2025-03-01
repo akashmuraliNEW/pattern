@@ -11,10 +11,17 @@ def wrap(string, max_width):
             str1=''
         str1+=i
         j+=1
-    return dict1
+    dict1[str1]=index
+    wrapStr=''
+    print(dict1)
+    for k in dict1:
+        wrapStr+=k+'\n'
+   
+    return wrapStr
+
+
 
 if __name__ == '__main__':
     string, max_width = input(), int(input())
     result = wrap(string, max_width)
-    for k in result:
-        print(k)   
+    print(result)   
