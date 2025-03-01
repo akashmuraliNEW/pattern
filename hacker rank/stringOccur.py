@@ -9,7 +9,7 @@ def count_substring(string, sub_string):
     for j in string:
         stringCount+=1
     print(stringCount)
-    
+    length = stringCount-subCount
     print(length)
     index = subCount
     for i in range(length+1):
