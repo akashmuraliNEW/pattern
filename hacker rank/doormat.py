@@ -8,6 +8,6 @@ for i in range (0, int((N)/2)):
     print((numRepet*patron).center(M,"-"))
 print("WELCOME".center(M,"-"))
 for k in range(int((N)/2),0,-1):
-    numRepet = (k-1+k)
+    
     print ((numRepet*patron).center(M,"-"))
     
