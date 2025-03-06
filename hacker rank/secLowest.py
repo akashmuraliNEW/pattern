@@ -19,8 +19,7 @@ for result in list:
     if result[1]==secLowest:
         finaList+=[result[0]]
 lenList = 0
-for i in finaList:
-    lenList+=1
+
 
 if lenList>1:
     for i in range(lenList-1):
