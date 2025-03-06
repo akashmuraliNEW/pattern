@@ -11,7 +11,7 @@
 # for i in range(input()):
 #     if dict1[N]=='insert':
 #         pass
-str1 = 'the counrty ireland is the '
+str1 = 'the counrty ireland is the terriffic'
 newstr = ''
 newWord = True
 for i in str1:
