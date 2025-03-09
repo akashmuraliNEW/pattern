@@ -5,4 +5,6 @@
 # # 9 9 9 9 9
 row = 5 
 for i in range(1,row):
-    pass
+    for j in range(i):
+        print(i+2,end=' ')
+    print()
