@@ -4,11 +4,12 @@
 # 4 5 
 # 5
 row = 6
-
+col = 5
 for i in range(1,row):
     num = i
-    for j in range(i):
+    for j in range(col):
         print(num,end=' ')
         num+=1
     print()
+    col-=1
 
