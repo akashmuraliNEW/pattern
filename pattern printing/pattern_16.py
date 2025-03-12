@@ -11,5 +11,5 @@ for i in range(1,row):
         print(num,end=' ')
         num+=1
     print()
-    col
+    col-=1
 
