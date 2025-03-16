@@ -1,5 +1,4 @@
 s="Welcome Friends"
-dict1 = {}
 len = 0
 newString=''
 list1=[]
@@ -12,7 +11,6 @@ for j in s:
         newString = ''
     else:
         newString+=j 
-print(list1)
 list1+=[newString]
 newString = ''
 for i in list1:
