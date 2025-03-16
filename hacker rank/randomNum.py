@@ -6,7 +6,7 @@ list1 = []
 for i in range(20):
     val = random.randint(-50,50)
     list1 += [val]
-print(list1)
+
 sum=0
 for i in list1:
     if i > 0:
