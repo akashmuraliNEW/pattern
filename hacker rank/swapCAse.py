@@ -8,7 +8,7 @@ def swap_case(s):
                 'z': 'Z'} 
     upToLow = {}
     for key in lowToUp:
-        upToLow[lowToUp[key]] = key
+        key]] = key
                     
     for i in s:
         if 'A'<=i<='Z':
