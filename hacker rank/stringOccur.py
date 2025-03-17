@@ -17,10 +17,6 @@ def count_substring(string, sub_string):
         if string[i:index]==sub_string:
             count+=1
         index+=1
-        
-        
-        
-        
     return count
 
 if __name__ == '__main__':
