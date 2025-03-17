@@ -11,7 +11,12 @@ def swap_case(s):
         upToLow[lowToUp[key]] = key
                     
     for i in s:
-    
+        if 'A'<=i<='Z':
+            result+=upToLow[i]
+        elif 'a'<=i<='z':
+            result+=lowToUp[i]
+        else:
+            result+=i
     return result
 
 if __name__ == '__main__':
