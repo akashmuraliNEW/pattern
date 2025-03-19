@@ -1,5 +1,6 @@
-n = input()
-shoeList=[]
-while n>0:
-    shoeList +=[input()]
-    n-=1
+n = int(input())
+sizeList=[]
+sizeList=input().split()
+customers = int(input())
+dict1 = {}
+
