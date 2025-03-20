@@ -10,5 +10,7 @@ while customers>0:
     key, value = map(int, user_input.split())
     dict1[key]=value
     customers-=1
-
+sum = 0
+for i in dict1:
+    sum+=dict1[i]
 print(sum)
