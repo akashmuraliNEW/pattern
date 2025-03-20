@@ -5,7 +5,10 @@ customers = int(input())
 dict1 = {}
 
 while customers>0:
-    key,value = map(int,input().split)
+    user_input = input("Enter key and value: ")  # Example: "6 55"
+
+    key, value = map(int, user_input.split())
     dict1[key]=value
     customers-=1
-print(dict1)
+
+print(sum)
