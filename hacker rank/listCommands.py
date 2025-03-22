@@ -15,11 +15,7 @@ str1 = 'the counrty ireland is the terriffic'
 newstr = ''
 newWord = True
 for i in str1:
-    print(i)
-    print(newstr)
-    # if newWord:
-    if i == 't':
-            newstr+='m'
+    PermissionError
     # if i==' ':
          
     #      newWord=True
