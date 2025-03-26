@@ -3,7 +3,9 @@
 # the list using a for loop and an if condition
 import random
 list1 = []
-for i i
+for i in range(20):
+    val = random.randint(-50,50)
+    list1 += [val]
 
 sum=0
 for i in list1:
