@@ -11,7 +11,7 @@ while customers>0:
     if key in sizeList:
             
         dict1[key]=value
-        customers-=1
+    customers-=1
 print(dict1)
 sum = 0
 for i in dict1:
