@@ -14,7 +14,6 @@ for i in range(N):
         arr.append(int(code[1])) 
     elif command == 'sort': 
         arr.sort() 
-        sdasda
 
     elif command == 'reverse': 
         arr.reverse() 
