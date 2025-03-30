@@ -12,8 +12,7 @@ for i in range(N):
         arr.remove(int(code[1])) 
     elif command == 'append':
         arr.append(int(code[1])) 
-    elif command == 'sort': 
-        arr.sort() 
+    eli
 
     elif command == 'reverse': 
         arr.reverse() 
