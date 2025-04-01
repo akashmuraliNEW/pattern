@@ -17,9 +17,7 @@ newWord = True
 for i in str1:
     print(i)
     print(newstr)
-    # if newWord:
-    if i == 't':
-            newstr+='m'
+    # i
     # if i==' ':
          
     #      newWord=True
