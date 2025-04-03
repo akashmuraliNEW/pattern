@@ -1,8 +1,8 @@
 from spotdl import Spotdl
 
 # Initialize spotDL with optional Spotify credentials (remove if not using)
-client_id = "your_spotify_client_id"  # Replace with your Client ID
-client_secret = "your_spotify_client_secret"  # Replace with your Client Secret
+client_id = "5ddcddccf1f94a41bd2970641998ab9e"  # Replace with your Client ID
+client_secret = "32681713fe2045a7b9b5ae5fba8bff86"  # Replace with your Client Secret
 spotdl = Spotdl(client_id=client_id, client_secret=client_secret)
 
 # Spotify URL (track, playlist, or album)
