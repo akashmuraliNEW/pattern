@@ -14,5 +14,7 @@ result = spotdl.download_songs(songs)  # Download it
 
 # Print the result
 for song, path in result:
-   
-   
+    if path:
+        print(f"Downloaded '{song.display_name}' to {path}")
+    else:
+        print(f"Failed to download
