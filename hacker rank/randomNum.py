@@ -7,3 +7,8 @@ for i in range(20):
     val = random.randint(-50,50)
     list1 += [val]
 # random
+sum=0
+for i in list1:
+    if i > 0:
+        sum+=i
+print(sum)
