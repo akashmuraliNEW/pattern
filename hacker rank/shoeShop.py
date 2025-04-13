@@ -16,4 +16,4 @@ print(dict1)
 sum = 0
 for i in dict1:
     sum+=dict1[i]
-print(sum)
+print(sum) 
