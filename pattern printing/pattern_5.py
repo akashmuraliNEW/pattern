@@ -11,4 +11,13 @@ for i in range(rows,0,-1):
     
     for j in range(i):
         print(' ',end=' ')
-    f
+    for k in range(col):
+        print(nums,end=' ')
+        nums+=1
+    for l in range(col2,0,-1):
+        print(l,end=' ')
+    col+=1
+    col2+=1
+    
+    print()
+    
