@@ -13,11 +13,4 @@ for i in a:
     j+=1
 
 print(dict)
-index = 0
-for i in range(1,j):
-    for k in range(1,i):
-        if index==28:
-            break
-        print(dict[index],end=' ')
-        index+=1
-    print()
+ind
