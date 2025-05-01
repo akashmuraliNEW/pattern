@@ -40,11 +40,10 @@ users = old_collection.find()
 # new_db = new_client['new_db_name']
 # new_collection = new_db['users']  # Replace 'users' with your actual collection name
 j=0
-for i in users:
-    print(i)
-    print('''''''''''''''''''''''''''''''''''''''''''''''')
-    if j>100:
-        break
-
-    j+=1
+# for i in users:
+#     print(i)
+#     print('''''''''''''''''''''''''''''''''''''''''''''''')
+#     if j>100:
+#         break
+#     j+=1
     
