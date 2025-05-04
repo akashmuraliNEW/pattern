@@ -82,4 +82,6 @@ newdb2 = 'mongodb://botuser:botpass@104.248.25.169:27017/professorbot'
 #   user: "botuser",
 #   pwd: "botpass",
 #   roles: [{ role: "readWrite", db: "professorbot" }]
-# })
+# }
+
+#+$++_+
