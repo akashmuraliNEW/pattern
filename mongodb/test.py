@@ -1,10 +1,14 @@
 from pymongo import MongoClient
 
-# Connect to your MongoDB (replace with your URI)
+# Connect to your MongoDB 
 client = MongoClient("mongodb://botuser:botpass@104.248.25.169:27017")
 
 # List all databases
 db_names = client.list_database_names()
+
+tt = client._default_database_name()
+print(tt)
+
 
 def check_db_stats():
     for db_name in db_names:
